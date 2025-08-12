@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #87ceeb;
+}
+h2{
+    background-color:aquamarine;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  
+  animation: backgroundColorChange 5s linear infinite;
+  color: white;
+  font-size: 2em;
+}
+button{
+    background-color:antiquewhite;
+    
+}
+
+
+@keyframes backgroundColorChange {
+  0% {
+    background-color: #7f494a;
+  }
+  25% {
+    background-color: #fc913a;
+  }
+  50% {
+    background-color: #862aa8;
+  }
+  75% {
+    background-color: #4cba97;
+  }
+  100% {
+    background-color: #ff4e50;
+  }
+}
+input{
+    width: 700px;
+    background-color:rgb(180, 201, 202);
+}
+
+
+
+  
